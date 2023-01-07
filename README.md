@@ -13,19 +13,19 @@ Now, for training algorithm on dataset ,I have selected a decision tree classifi
 To ensure the successful operation of this project, there are some aspects one should look at.
 The python libraries that I used have some dependency issues. So, after downloading required libraries to run the algorithm successfully the following commands should be executed in the terminal.
 
-```bash
+```python
 pip install speaker-verification-toolkit
 pip install numba==0.48
 pip install resampy==0.3.1
 ```
 
 
-## Authors
-
-- [Bharadwaj](https://github.com/Bharadwaj75-ceo)
 
 
 ## Screenshots
 
-![Mel Spectrogram](file:///C:/Users/bharadwaj/Development/projects/pythonista/melspectrogram.png)
+![Mel Spectrogram](/images_py/melspectrogram.png)
 
+## Authors
+
+[Bharadwaj](https://github.com/Bharadwaj75-ceo)
