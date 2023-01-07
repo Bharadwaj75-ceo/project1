@@ -27,11 +27,6 @@ pip install resampy==0.3.1
 
 
 
-
-## Screenshots
-
-![](/melspectrogram.png)
-
 ## Authors
 
 [Bharadwaj](https://github.com/Bharadwaj75-ceo)
