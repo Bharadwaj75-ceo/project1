@@ -24,7 +24,7 @@ pip install resampy==0.3.1
 
 ## Screenshots
 
-![](/images_py/melspectrogram.png)
+![](/melspectrogram.png)
 
 ## Authors
 
