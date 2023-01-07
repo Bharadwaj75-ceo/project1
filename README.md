@@ -1,11 +1,17 @@
 
 # Covid-19 Detection using Cough Analysis
 
-This is a file contains the algorithm that detects the presence of covid disease in a person.
-The working principle of this project is that the audio file in .wav or .mp3 format that contain cough of the patient is given as input to the algorithm.
-The audio's features are extracted from its melspectrogram, out of these MFCC values are extracted using a library called "speaker verification toolkit" after filtering out the noise using RMS silence filter.
-In addition to the MFCC values the spectral centroid, spectral bandwidth, spectral rolloff values are extracted from the audio. These values are later used for predicition.
-Now, for training algorithm on dataset ,I have selected a decision tree classifier. After training the algorithm is able to predict the Covid-19 disease in the patients cough.
+This project is focuses on development of a machine learning algorithm that detects the covid-19 disease in the patient using patient's cough. This approach is 
+
+# Road Map
+ ## Data Collection
+The first step of the project is that the patient has to upload the cough audio file either in .wav or .mp3 format.
+ ## Training
+ A machine learning algorithm is selected for training on the both infected and un-infected patient's data. 
+ ## Feature Extraction
+ Applying the noise filters the noise from the audio file is removed. Later, many features neccesary for the analysis are extracted these are MFCC, spectral bandwidth, spectral roll-off, spectral centroid.
+ ## Predicition
+ In the final step, these extracted features are fed into the algorithm to predict the change of patient suffering from covid. 
 
 
 ## Deployment
